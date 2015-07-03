@@ -5,7 +5,7 @@ require_relative 'models/caesar-cipher.rb'
 class ApplicationController < Sinatra::Base
 
   get '/' do
-    "THIS IS MY HOME PAGE"
+    "THIS IS IAN'S HOME - IAN EDITED THIS PAGE"
   end
   
   get '/encode' do
